@@ -11,6 +11,7 @@ class FakeActiveModel {
 
 	public function __get($field) {
 		return $this -> properties -> get_array[$field];
+		//return $this -> properties[$field];
 	}
 	
 	public function __set($field, $value) {
