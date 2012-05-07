@@ -1,3 +1,3 @@
 <?php
-$config = array('adapter' => 'mysql'); 
+$config = array('adapter' => 'abstract'); 
 ?>
