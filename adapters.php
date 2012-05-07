@@ -29,8 +29,6 @@ class FakeAdapterPosgrsql extends FakeAbstrackAdapter {
 }
 
 class FakeAdapterFactory {
-	private $adapter;
-
 	static public function create($config) {
 		puts($config['adapter']);
 
