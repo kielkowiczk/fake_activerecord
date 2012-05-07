@@ -6,7 +6,7 @@ class FakeActiveModel {
 	protected $properties;
 	
 	public function __construct() {
-		$this -> $properties = new SmartArray(array());
+		$this -> properties = new SmartArray(array());
 	}
 
 	public function __get($field) {

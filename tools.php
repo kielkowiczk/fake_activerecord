@@ -23,8 +23,8 @@ class SmartArray implements Enumerable, ArrayAccess{
     }
   
     public function each($fnc) {
-      foreach($this -> inner_array as &$el) {
-        $fnc(&$el);
+      foreach($this -> inner_array as $el) {
+        $fnc($el);
       }
     }
 
